@@ -1,0 +1,14 @@
+Django
+
+create dir. 
+virtualenv -p python3 envname
+. envname/bin/activate
+pip3 install django
+django-admin --version
+
+django-admin startproject mysite
+python3 manage.py runserver ( python3 manage.py runserver 8080)
+
+python3 manage.py startapp nameofwebapp
+
+
